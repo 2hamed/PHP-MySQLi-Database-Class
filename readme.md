@@ -129,3 +129,11 @@ $results = $db
 
 </code>
 </pre>
+
+<h3> getError Method </h3>
+<p>Returns the mysqli error object if there is any.</p>
+<pre>
+<code>
+print_r($db->getError());
+</code>
+</pre>
